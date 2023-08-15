@@ -1,0 +1,9 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: auto 1fr; /* add this line to set the first column to auto (sidebar width) and the second column to 1fr (content width) */
+  background-color: #262f43;
+  background-image: url("./bgpic.png");
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+}

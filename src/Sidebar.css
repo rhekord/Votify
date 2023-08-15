@@ -1,0 +1,43 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #393c4f;
+  color: #ffffff;
+  width: 250px;
+  height: 100vh;
+  border-top-right-radius: 108px;
+  border-bottom-right-radius: 108px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px; /* add a margin top to center the logo */
+}
+
+.logo img {
+  height: 100px;
+  border-radius: 200px;
+}
+.menu {
+  margin-bottom: 500px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1000px;
+  color: #ffffff;
+
+  /* padding: 10px; */
+}
+span {
+  color: white;
+}
+
+/* .nav-item:hover {
+  background-color: #444444;
+} */

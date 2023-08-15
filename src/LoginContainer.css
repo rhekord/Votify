@@ -1,0 +1,89 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: auto;
+  border: 1px solid #7fb5e6;
+  background-image: linear-gradient(131.5deg, #393c4f14 0%, #7fb5e608 100%);
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 160px;
+}
+
+.login-container h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-container {
+  background-color: #7baddc77;
+  border-radius: 20px;
+  height: auto;
+  width: 300px;
+  padding: 20px 20px 20px 40px;
+
+  /* margin-top: 30px; */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.form-group label {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #262f43;
+  border: none;
+  border-radius: 20px;
+  color: #7fb5e6;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 40%;
+  margin-left: 140px;
+}
+
+button[type="submit"]:hover {
+  background-color: #7fb5e6;
+  color: #fff;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: #7fb5e6;
+}
